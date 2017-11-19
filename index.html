@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>calculadora Basica</title>
+	<script src="codescript.js"></script>
+</head>
+<style>
+	#calculadora{width: 380px;padding: 1em;box-sizing: border-box;background: grey; margin: 0 auto;}
+	#resultado{width: 100%; 
+		font-size: 1.5em; 
+		padding: .5em; 
+		height: 45px;
+		border:solid thin #666; 
+		background:#fff; 
+		box-sizing: border-box; 
+		margin-bottom: .5em;
+		overflow: hidden;
+	}
+	.igual{text-align: center;}
+	 table tr{width: 100%; }
+	 table tr td{width: 84px;
+	 	         padding: 1em 0;
+                 border: solid thin rgba(255,255,255);
+                 text-align: center;
+                 font-size: 1.5em;
+                 cursor: pointer;
+             }
+     table tr td:hover{background: rgb(100, 164, 246); color: #fff;}
+</style>
+<body> 
+	<section id="calculadora" name="calculadora">
+		<article id="resultado" name="resultado">
+
+		</article>
+		<article class="botones">
+			<table>
+				<tr>
+					<td id="1" class="numero">1</td>
+					<td id="2" class="numero">2</td>
+					<td id="3" class="numero">3</td>
+					<td id="/" class="numero">/</td>
+				</tr>
+				<tr>
+					<td id="4" class="numero">4</td>
+					<td id="5" class="numero">5</td>
+					<td id="6" class="numero">6</td>
+					<td id="x" class="numero">x</td>
+				</tr>
+					<td id="7" class="numero">7</td>
+					<td id="8" class="numero">8</td>
+					<td id="9" class="numero">9</td>
+					<td id="-" class="numero">-</td>
+				</tr>
+				</tr>
+					<td id="0" class="numero">0</td>
+					<td id="C" class="numero">C</td>
+					<td id="igual" class="numero">=</td>
+					<td id="+" class="numero">+</td>
+				</tr>
+			</table>
+		</article>
+	</section>
+
+	<section class="horario"></section>
+</body>
+</html>
