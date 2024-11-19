@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>calculadora Basica</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css"/>
+</head>
+<body> 
+	<section class="calculadora"> 
+		<article class="swich-bar">
+			<input type="checkbox" id="theme">
+			<label class="swich-color" for="theme"></label>
+		</article>
+		<article id="resultado" name="resultado">
+
+		</article>
+		<article class="botones">
+			<table>
+				<tr>
+					<td id="nulo" class="numero operador">CE</td>									
+					<td id="+" class="numero operador">+</td>
+					<td id="-" class="numero operador">-</td>
+					<td id="borrar" class="numero delete"><</td>
+				</tr>
+				<tr>
+					<td id="1" class="numero num">1</td>
+					<td id="2" class="numero num">2</td>
+					<td id="3" class="numero num">3</td>
+					<td id="/" class="numero operador">/</td>
+				</tr>
+				<tr>
+					<td id="4" class="numero num">4</td>
+					<td id="5" class="numero num">5</td>
+					<td id="6" class="numero num">6</td>
+					<td id="*" class="numero operador">*</td>
+				</tr>
+					<td id="7" class="numero num">7</td>
+					<td id="8" class="numero num">8</td>
+					<td id="9" class="numero num">9</td>
+					<td rowspan="2" id="equal" class="numero igual">=</td>					
+				</tr>
+				</tr>
+				    <td id="clear" class="numero operador">C</td>
+					<td id="0" class="numero num">0</td>						
+					<td id="dot" class="numero operador">.</td>													
+				</tr>
+			</table>
+		</article>
+	</section>
+
+	<section class="horario"></section>
+	<script src="codescript.js"></script>
+</body>
+</html>
