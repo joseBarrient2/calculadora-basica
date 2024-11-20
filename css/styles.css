@@ -106,3 +106,7 @@ body{
         color: #333333;
         background: rgb(253, 84, 6);
     }
+    .dark .numero:hover{
+        background: #4022b5;
+        color:#fff;
+    }
